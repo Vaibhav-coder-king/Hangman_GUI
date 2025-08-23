@@ -5,7 +5,7 @@ from PIL import Image
 from customtkinter import *
 
 def get_words():
-	with open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Hangman\hangman_words.txt","r") as f:
+	with open(r"assets\hangman_words.txt","r") as f:
 		wrd=f.readlines()
 		s=[]
 		for w in wrd[:-1]:
@@ -67,7 +67,7 @@ def set_theme(theme):
 	set_default_color_theme(theme)
 	a.destroy()
 	main()
-	#runtime error occurs if we try to change theme 
+	
 
 def main():
 	global a,words,kk,mode_b,theme_b,exit_b,play_b,rul_b,han_l
@@ -83,7 +83,7 @@ def main():
 	else:
 		a.config(background="#2b2b2b")
 	#for image 
-	a_i=CTkImage(light_image=Image.open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Hangman\HANGMAN.jpg"),dark_image=Image.open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Hangman\HANGMAN_d.jpg"),size=(600,300))
+	a_i=CTkImage(light_image=Image.open(r"assets\HANGMAN.jpg"),dark_image=Image.open(r"assets\HANGMAN_d.jpg"),size=(600,300))
 	
 	
 	#__________________________________________________________________
@@ -143,11 +143,11 @@ def game():
 	
 	#_________________________________________
 	
-	h_w=CTkImage(light_image=Image.open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Hangman\hangman_win.png"),dark_image=Image.open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Hangman\hangman_win.png"),size=(500,400))
+	h_w=CTkImage(light_image=Image.open(r"assets\hangman_win.png"),dark_image=Image.open(r"assets\hangman_win.png"),size=(500,400))
 	
 	h=[0 for i in range(8)]
 	for j in range(8):
-		h[j]=CTkImage(light_image=Image.open(f"C:\\Users\\vaibhav chopra\\Desktop\\codes\\Python_projects\\Hangman\\hangman{j}.png"),size=(400,400))
+		h[j]=CTkImage(light_image=Image.open(f"assets\\hangman{j}.png"),size=(400,400))
 		
 	
 	
