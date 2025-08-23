@@ -25,7 +25,7 @@ A modern Hangman game built with Python, featuring a clean CustomTkinter interfa
 # 📂 Project Structure
 
 Hangman/
-│── hangman.py             # Main game script
+│── Hangman(Gui).py        # Main game script
 │── hangman_words.txt      # Word list file
 │── HANGMAN.jpg            # Title image (Light mode)
 │── HANGMAN_d.jpg          # Title image (Dark mode)
@@ -52,7 +52,7 @@ Add your word list in hangman_words.txt (one word per line).
 
 Run the game:
 
-python hangman.py
+python Hangman(Gui).py
 
 # 🎨 Controls
 
