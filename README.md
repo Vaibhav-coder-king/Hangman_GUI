@@ -1,4 +1,4 @@
-# 🎮 Hangman Game (Tkinter + CustomTkinter)
+8# 🎮 Hangman Game (Tkinter + CustomTkinter)
 
 A modern Hangman game built with Python, featuring a clean CustomTkinter interface, theme switching (Light/Dark/Color themes), and custom images for hangman states.
 
@@ -83,5 +83,6 @@ Exit button → quit the game
 <img width="1491" height="883" alt="image" src="https://github.com/user-attachments/assets/44ba816c-54cf-46ff-be96-c418c1f6f763" />
 
 
-# author 
-created by Vaibhav_coder_king
+# 🙋‍♂️ Author
+
+Made BY [Vaibhav-coder-king](https://github.com/Vaibhav-coder-king)
