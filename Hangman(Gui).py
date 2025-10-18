@@ -112,7 +112,7 @@ def main():
 	
 	rul_b=CTkButton(master=a,text="Rule",font=('consolas',50,"bold"),bg_color=("white","#2b2b2b"),corner_radius=80,command=show_rules)
 	rul_b.place(relx=0.6,rely=0.5,relwidth=0.2,relheight=0.1,anchor=N)
-	
+	a.bind("<Escape>",lambda event: ex_t())
 	a.mainloop()
 #done_______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -216,6 +216,8 @@ def win_chk(w):
 #clk		
 def clk(x,y):
 	global wrong_n,dl
+	if k[y[0]][y[1]]["state"]=="disabled":
+		return
 	
 	if x in word_c:
 		for i,s in enumerate(l_c):
