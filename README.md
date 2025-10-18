@@ -1,4 +1,4 @@
-8# 🎮 Hangman Game (Tkinter + CustomTkinter)
+# 🎮 Hangman Game (Tkinter + CustomTkinter)
 
 A modern Hangman game built with Python, featuring a clean CustomTkinter interface, theme switching (Light/Dark/Color themes), and custom images for hangman states.
 
